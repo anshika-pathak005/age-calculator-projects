@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* so content doesn't touch screen edges */
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* no fixed margin needed now */
+}
+
+.container h1 {
+    font-size: clamp(28px, 5vw, 50px);
+    text-shadow: 0 0 5px #fff;
+}
+.input_box {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #70707081;
+    display: flex;
+    flex-direction: column;  /* stack elements vertically */
+    align-items: center;     /* center them horizontally */
+}
+.input_box input {
+    width: 100%;
+    max-width: 400px;    /* keeps it from being too wide on huge screens */
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px; /* spacing between input and button */
+}
+
+.input_box button {
+    width: 100%;
+    max-width: 200px;   /* keep it neat on big screens */
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 0 auto;         /* centers it horizontally */
+    display: block;
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .input_box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .input_box button {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.input_box button:hover{
+    background-color: #a1a1a1;
+}
+.input_box button:active{
+    background-color: #828282;
+}
+/* 
+.input_box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100%-10px);
+    background-size: 30px;
+    cursor: pointer;
+} */
+
+#result{
+    /* background-color: #333; */
+    margin: 30px 0;
+    padding: 10px;
+    font-size: clamp(16px, 2.5vw, 19px);
+    font-size: 19px;
+    /* font-weight: 500; */
+    text-shadow: 0 0 3px #fff;
+    border-radius: 10px;
+}

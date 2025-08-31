@@ -1,0 +1,107 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* prevents content touching edges on mobile */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: clamp(40px, 6vw, 70px);  /* scales between 32px and 70px */
+    text-shadow: 0 0 10px #9b9b9b;
+    margin-bottom: 20px;
+}
+
+.container h3 {
+    font-size: clamp(18px, 3vw, 20px);  /* scales between 16px and 20px */
+    margin: 20px 0;
+    font-weight: 100;
+    color: #9f9f9f;
+}
+
+.input_box {
+    box-shadow: 0 0 50px #161515;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #70707081;
+    display: flex;
+    flex-direction: column;  /* stack elements vertically */
+    align-items: center;
+}
+
+.input_box input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.input_box button {
+    width: 100%;
+    max-width: 200px;       /* keep it neat on big screens */
+    margin: 10px auto 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+}
+
+.input_box button:hover {
+    background-color: #a1a1a1;
+}
+
+.input_box button:active {
+    background-color: #828282;
+}
+
+#result {
+    margin: 30px 0;
+    padding: 10px;
+    font-size: clamp(16px, 3vw, 19px); /* scales smoothly on mobile */
+    text-shadow: 0 0 3px #fff;
+    border-radius: 10px;
+}
+
+/* Small screen tweaks */
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .input_box {
+        padding: 15px;
+    }
+    .input_box input {
+        font-size: 16px;
+    }
+    .input_box button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
