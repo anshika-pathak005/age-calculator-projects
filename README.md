@@ -28,7 +28,7 @@ Both are included to show how I started simple and then upgraded the project wit
 - 📱 Responsive design for mobile and desktop  
 - 🧹 Cleaner and more polished UI  
 
-```
+
 ## 📂 Project Structure
 
 ```
@@ -48,8 +48,6 @@ age-calculator-projects/
 └── style.css
 
 ```
-```
-
 
 ## 🚀 Installation / Usage
 
