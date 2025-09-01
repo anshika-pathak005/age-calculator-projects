@@ -14,8 +14,7 @@ This repository contains two versions showing my progress in learning JavaScript
 - **Version 2 — Date + Time**  
   Improved version — adds time calculation (hours, minutes, seconds), better validation, and a fully responsive UI.
 
-  <img width="1366" height="683" alt="image" src="https://github.com/user-attachments/assets/71bcaddb-b7a6-48e7-a695-7321adbbcc26" />
-
+<img width="1366" height="682" alt="image" src="https://github.com/user-attachments/assets/f9568d30-6501-49e6-9f4b-b033921e5ad7" />
 
 Both are included to show how I started simple and then upgraded the project with new features and cleaner design.
 
