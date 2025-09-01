@@ -7,10 +7,15 @@ This repository contains two versions showing my progress in learning JavaScript
 ## ❓ Why Two Versions?
 
 - **Version 1 — Date Only**  
-  My first attempt — calculates just years, months, and days.  
+  My first attempt — calculates just years, months, and days.
+
+  <img width="1364" height="679" alt="image" src="https://github.com/user-attachments/assets/b02b2ecd-59df-475e-980f-66c55f1bd9ca" />
 
 - **Version 2 — Date + Time**  
-  Improved version — adds time calculation (hours, minutes, seconds), better validation, and a fully responsive UI.  
+  Improved version — adds time calculation (hours, minutes, seconds), better validation, and a fully responsive UI.
+
+  <img width="1366" height="683" alt="image" src="https://github.com/user-attachments/assets/71bcaddb-b7a6-48e7-a695-7321adbbcc26" />
+
 
 Both are included to show how I started simple and then upgraded the project with new features and cleaner design.
 
