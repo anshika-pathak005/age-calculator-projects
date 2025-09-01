@@ -37,12 +37,12 @@ age-calculator-projects/
 │
 ├── README.md                # Main overview (for both versions)
 │
-├── Age\_Caculator\_v1/        # First version
+├── Age_Caculator_v1        # First version
 │   ├── index.html
 │   ├── index.js
 │   └── style.css
 │
-└── Age\_Caculator version 2/ # Improved version
+└── Age_Caculator version 2 # Improved version
 ├── index.html
 ├── index3.js
 └── style.css
