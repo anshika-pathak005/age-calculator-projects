@@ -28,22 +28,28 @@ Both are included to show how I started simple and then upgraded the project wit
 - 📱 Responsive design for mobile and desktop  
 - 🧹 Cleaner and more polished UI  
 
-
+```
 ## 📂 Project Structure
+
+```
 
 age-calculator-projects/
 │
-├── README.md # Main overview (for both versions)
+├── README.md                # Main overview (for both versions)
 │
-├── Age_Caculator_v1/ # First version
-│ ├── index.html
-│ ├── index.js
-│ └── style.css
+├── Age\_Caculator\_v1/        # First version
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
 │
-└── Age_Caculator version 2/ # Improved version
+└── Age\_Caculator version 2/ # Improved version
 ├── index.html
 ├── index3.js
 └── style.css
+
+```
+```
+
 
 ## 🚀 Installation / Usage
 
